@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495e</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTeal">	#008080</color>
+    <color name="colorwhite">	#02c9a5</color>
+    <color name="darkTurquoise">#00CED1</color>
+    <color name="deepsky">		#00BFFF</color>
+    <color name="DarkCyan">		#008B8B</color>
+    <color name="darkblack">		#000000</color>
+
+    <color name="sa_green">#14a804</color>
+    <color name="stacked_green">#118504</color>
+    <color name="stacked_red">#ffff2300</color>
+    <color name="accent_red">#ffff4300</color>
+    <color name="accent_green">#97e08f</color>
+    <color name="fab_col">#02c9a5</color>
+    <color name="A400">#00E5FF</color>
+
+    <color name="dhaka">#eab433</color>
+    <color name="syllhet">#1aa02a</color>
+    <color name="comilla">#ffff</color>
+    <color name="rongpur">#ffff4300</color>
+    <color name="raj">#97e08f</color>
+    <color name="ctg">#bf343c</color>
+
+
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+</resources>

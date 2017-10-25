@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:background="@drawable/darkbackground"
+    tools:context="com.poran.bpl2017live.IconPlayerActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:padding="7dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/team"
+            android:background="@drawable/stylebackground"
+            android:gravity="center"
+            android:textColor="@color/A400"
+            android:textSize="@dimen/largetxt"
+            android:padding="7dp"
+            android:text="ঢাকা ডাইনামাইটস"
+            android:layout_marginRight="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/totalPrice"
+            android:textColor="@color/list_divider"
+            android:gravity="center"
+            android:background="@drawable/stylebackground"
+            android:textSize="@dimen/largetxt"
+            android:padding="7dp"
+            android:text="মোট ব্যয়ঃ ৫৫ লাখ"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

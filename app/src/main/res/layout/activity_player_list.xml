@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.poran.bpl2017live.PlayerList">
+
+    <TextView
+        android:id="@+id/teamtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebackground"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Team"
+        android:textColor="@color/darkTurquoise"
+        android:textSize="@dimen/largetxt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconplr"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/stylebackground"
+        android:textColor="@color/A400"
+       android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingRight="10dp"
+
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:textSize="@dimen/mediumTxt"
+        android:text="Sakib al hasan"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="বাংলাদেশি খেলোয়াড় : "
+        android:padding="10dp"
+        android:background="@drawable/stylebackground"
+        android:textColor="@color/deepsky"
+        android:layout_marginTop="5dp"
+
+        android:textSize="@dimen/largetxt"
+        />
+
+    <TextView
+        android:id="@+id/plrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/A400"
+        android:text="Sakib al hasan"
+        android:padding="7dp"
+        android:textSize="@dimen/mediumTxt"
+        android:gravity="center"
+        android:background="@drawable/stylebackground"
+
+        />
+
+    <TextView
+
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/stylebackground"
+        android:text="বিদেশি খেলোয়াড় "
+        android:textColor="@color/list_row_hover_start_color"
+        android:padding="10dp"
+
+        android:textSize="@dimen/largetxt" />
+
+    <TextView
+        android:id="@+id/plrabroad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/stylebackground"
+        android:padding="7dp"
+        android:text="Sakib al hasan"
+        android:gravity="center"
+        android:textColor="@color/A400"
+        android:textSize="@dimen/mediumTxt"
+
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+
+        android:layout_width="fill_parent"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1820765674741508/3627037138"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|center_horizontal"
+         />
+
+
+</LinearLayout>

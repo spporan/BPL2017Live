@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "626099709148",
+    "firebase_url": "https://bpllive2017.firebaseio.com",
+    "project_id": "bpllive2017",
+    "storage_bucket": "bpllive2017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626099709148:android:f74bdf712a395428",
+        "android_client_info": {
+          "package_name": "com.poran.bpl2017live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626099709148-ufknqft1nj6qckkrss2i186mqhm8pg5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poran.bpl2017live",
+            "certificate_hash": "ace8dccf49857853b9cecae5b83ee7c05ffc2e52"
+          }
+        },
+        {
+          "client_id": "626099709148-4p17411v022vhcqcc6c58l9kdin5p3hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw_3L--hGe_YjOCWF8ABYQ5SUz7JQf5hs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626099709148-4p17411v022vhcqcc6c58l9kdin5p3hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

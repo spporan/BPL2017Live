@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/darkbackground"
+    android:orientation="vertical"
+    tools:context="com.poran.bpl2017live.TimeShedeul">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:padding="10dp"
+            android:background="@drawable/stylebackground"
+
+
+            android:text="ঢাকা বনাম সিলেট"
+            android:textSize="@dimen/mediumTxt"
+            android:textColor="@color/list_divider"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/matchNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:text="ম্যাচ -১"
+            android:textColor="@color/A400"
+            android:textSize="@dimen/smalltxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:layout_gravity="center"
+            android:text="তারিখঃ০২ নভেম্বর"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/A400"
+            android:textSize="@dimen/smalltxt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/day"
+            android:layout_gravity="center"
+            android:text="বারঃ শনিবার"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textColor="@color/A400"
+            android:textSize="@dimen/smalltxt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/time"
+            android:layout_margin="5dp"
+            android:text="সময়ঃ বেলা ২ টা"
+            android:textColor="@color/A400"
+           android:padding="10dp"
+            android:textSize="@dimen/smalltxt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/vanue"
+            android:layout_margin="5dp"
+            android:textColor="@color/A400"
+            android:text="ভেন্যুঃ মিরপুর শের-ই-বাংলা জাতীয় \n           ক্রিকেট স্টেডিয়াম"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="@dimen/smalltxt"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

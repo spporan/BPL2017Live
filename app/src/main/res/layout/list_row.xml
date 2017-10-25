@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/darkbackground"
+
+    android:padding="10dp">
+
+    <!-- Thumbnail Image -->
+
+    <!-- Match between teams -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:text="Pakistan vs India\n"
+        android:background="@drawable/stylebackground"
+        android:textSize="@dimen/mediumTxt"
+        android:textColor="@color/A400"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>
